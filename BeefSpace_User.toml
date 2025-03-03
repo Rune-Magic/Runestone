@@ -1,0 +1,300 @@
+FileVersion = 1
+LastConfig = "Debug"
+LastPlatform = "Win64"
+RecentFilesList = ["Test\\src\\Program.bf", "src\\EntryPoint.bf", "c:\\Users\\EW\\AppData\\Local\\BeefLang\\BeefLibs\\corlib\\src\\Result.bf", "src\\Resources.bf", "Test\\src\\Resources.bf", "c:\\Users\\EW\\AppData\\Local\\BeefLang\\BeefLibs\\corlib\\src\\Diagnostics\\Debug.bf", "c:\\Users\\EW\\AppData\\Local\\BeefLang\\BeefLibs\\corlib\\src\\IO\\FileStream.bf", "src\\VkHelper.bf", "c:\\Users\\EW\\AppData\\Local\\BeefLang\\BeefLibs\\corlib\\src\\BumpAllocator.bf", "deps\\vulkan\\src\\vulkan.bf", "deps\\glfw\\src\\glfw.bf", "src\\Program.bf", "src\\Collision\\2D\\Radians.bf", "c:\\Users\\EW\\AppData\\Local\\BeefLang\\BeefLibs\\corlib\\src\\Array.bf", "c:\\Users\\EW\\AppData\\Local\\BeefLang\\BeefLibs\\corlib\\src\\IO\\File.bf", "src\\Vector.bf", "src\\Rendering\\Viewport.bf", "c:\\Users\\EW\\AppData\\Local\\BeefLang\\BeefLibs\\corlib\\src\\Type.bf", "c:\\Users\\EW\\AppData\\Local\\BeefLang\\BeefLibs\\corlib\\src\\Runtime.bf"]
+
+[MainWindow]
+X = 0
+Y = 0
+Width = 1936
+Height = 1056
+ShowKind = "ShowMaximized"
+
+[MainDockingFrame]
+Type = "DockingFrame"
+SplitType = 1
+
+[[MainDockingFrame.DockedWidgets]]
+RequestedWidth = 250.0
+RequestedHeight = 450.0
+SizePriority = 0.7536458
+Type = "DockingFrame"
+SplitType = 2
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+RequestedWidth = 350.0
+RequestedHeight = 726.04
+SizePriority = 726.04
+Type = "DockingFrame"
+SplitType = 1
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets]]
+RequestedWidth = 318.0
+RequestedHeight = 200.0
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Workspace"
+TabWidth = 115.0
+TabIsPinned = false
+Type = "ProjectPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets]]
+IsFillWidget = true
+Permanent = true
+RequestedWidth = 1600.04
+RequestedHeight = 150.0
+SizePriority = 1600.04
+DefaultDocumentsTabbedView = true
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Program.bf"
+TabWidth = 105.0
+TabIsPinned = false
+Type = "SourceViewPanel"
+FilePath = "Test\\src\\Program.bf"
+CursorPos = 404
+ProjectName = "Runestone.Test"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Result.bf"
+TabWidth = 89.00002
+TabIsPinned = false
+Type = "SourceViewPanel"
+FilePath = "c:\\Users\\EW\\AppData\\Local\\BeefLang\\BeefLibs\\corlib\\src\\Result.bf"
+CursorPos = 1763
+VertPos = 1530.0
+ProjectName = "corlib"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Debug.bf"
+TabWidth = 84.00002
+TabIsPinned = false
+Type = "SourceViewPanel"
+FilePath = "c:\\Users\\EW\\AppData\\Local\\BeefLang\\BeefLibs\\corlib\\src\\Diagnostics\\Debug.bf"
+CursorPos = 2076
+VertPos = 975.0
+ProjectName = "corlib"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "FileStream.bf"
+TabWidth = 105.0
+TabIsPinned = false
+Type = "SourceViewPanel"
+FilePath = "c:\\Users\\EW\\AppData\\Local\\BeefLang\\BeefLibs\\corlib\\src\\IO\\FileStream.bf"
+CursorPos = 13912
+VertPos = 8565.0
+ProjectName = "corlib"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Resources.bf"
+TabWidth = 105.0
+TabIsPinned = false
+Type = "SourceViewPanel"
+FilePath = "Test\\src\\Resources.bf"
+CursorPos = 208
+ProjectName = "Runestone.Test"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "BumpAllocator.bf"
+TabWidth = 129.0
+TabIsPinned = false
+Type = "SourceViewPanel"
+FilePath = "c:\\Users\\EW\\AppData\\Local\\BeefLang\\BeefLibs\\corlib\\src\\BumpAllocator.bf"
+CursorPos = 6190
+VertPos = 3701.0
+ProjectName = "corlib"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Resources.bf"
+TabWidth = 105.0
+TabIsPinned = false
+Type = "SourceViewPanel"
+FilePath = "src\\Resources.bf"
+CursorPos = 1565
+VertPos = 525.0
+ProjectName = "Runestone"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Radians.bf"
+TabWidth = 91.00002
+TabIsPinned = false
+Type = "SourceViewPanel"
+FilePath = "src\\Collision\\2D\\Radians.bf"
+CursorPos = 531
+ProjectName = "Runestone"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Vector.bf"
+TabWidth = 82.00002
+TabIsPinned = false
+Type = "SourceViewPanel"
+FilePath = "src\\Vector.bf"
+CursorPos = 5782
+ProjectName = "Runestone"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "EntryPoint.bf"
+TabWidth = 103.0
+TabIsPinned = false
+Type = "SourceViewPanel"
+FilePath = "src\\EntryPoint.bf"
+CursorPos = 732
+VertPos = 1740.0
+ProjectName = "Runestone"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Viewport.bf"
+TabWidth = 97.00002
+TabIsPinned = false
+Type = "SourceViewPanel"
+FilePath = "src\\Rendering\\Viewport.bf"
+CursorPos = 68
+ProjectName = "Runestone"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "VkHelper.bf"
+TabWidth = 97.00002
+TabIsPinned = false
+Type = "SourceViewPanel"
+FilePath = "src\\VkHelper.bf"
+CursorPos = 4019
+ProjectName = "Runestone"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Runtime.bf"
+TabWidth = 92.00002
+TabIsPinned = false
+Type = "SourceViewPanel"
+FilePath = "c:\\Users\\EW\\AppData\\Local\\BeefLang\\BeefLibs\\corlib\\src\\Runtime.bf"
+CursorPos = 19075
+ProjectName = "corlib"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Program.bf"
+TabWidth = 96.00002
+TabIsPinned = false
+Type = "SourceViewPanel"
+FilePath = "src\\Program.bf"
+CursorPos = 13054
+ProjectName = "Runestone"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets]]
+RequestedWidth = 250.0
+RequestedHeight = 250.0
+Type = "DockingFrame"
+SplitType = 1
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets]]
+RequestedWidth = 250.0
+RequestedHeight = 250.0
+SizePriority = 1918.0
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Errors"
+TabWidth = 86.00001
+TabIsPinned = false
+Type = "ErrorsPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Memory"
+TabWidth = 99.00001
+TabIsPinned = false
+Type = "MemoryPanel"
+AutoResize = "Auto_Mul8"
+RequestedWidth = 300.0
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Watch"
+TabWidth = 86.00001
+TabIsPinned = false
+Type = "WatchPanel"
+Columns = [{Width = 200.0}, {Width = 200.0}, {Width = 200.0}]
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Auto"
+TabWidth = 77.0
+TabIsPinned = false
+Type = "AutoWatchPanel"
+Columns = [{Width = 200.0}, {Width = 200.0}, {Width = 200.0}]
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets]]
+RequestedWidth = 250.0
+RequestedHeight = 250.0
+SizePriority = 1918.0
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Find Results"
+TabWidth = 119.0
+TabIsPinned = false
+Type = "FindResultsPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Threads"
+TabWidth = 97.00001
+TabIsPinned = false
+Type = "ThreadPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Call Stack"
+TabWidth = 105.0
+TabIsPinned = false
+Type = "CallStackPanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+TabLabel = "Immediate"
+TabWidth = 111.0
+TabIsPinned = false
+Type = "ImmediatePanel"
+
+[[MainDockingFrame.DockedWidgets.DockedWidgets.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "Output"
+TabWidth = 90.00001
+TabIsPinned = false
+Type = "OutputPanel"
+
+[[MainDockingFrame.DockedWidgets]]
+IsFillWidget = true
+RequestedWidth = 1600.04
+RequestedHeight = 726.04
+SizePriority = 0.2463542
+Type = "TabbedView"
+
+[[MainDockingFrame.DockedWidgets.Tabs]]
+Active = true
+TabLabel = "vulkan.bf"
+TabWidth = 81.00002
+TabIsPinned = false
+Type = "SourceViewPanel"
+FilePath = "deps\\vulkan\\src\\vulkan.bf"
+CursorPos = 256006
+VertPos = 85425.0
+ProjectName = "vulkan"
+
+[[MainDockingFrame.DockedWidgets.Tabs]]
+TabLabel = "glfw.bf"
+TabWidth = 69.00001
+TabIsPinned = false
+Type = "SourceViewPanel"
+FilePath = "deps\\glfw\\src\\glfw.bf"
+CursorPos = 41994
+ProjectName = "glfw"
+
+[[BookmarkFolders]]
+Title = ""
+
+[OutputFilters]
+ModuleLoadMessages = true
+ModuleUnloadMessages = true
+ProcessExitMessages = true
+ThreadCreateMessages = true
+ThreadExitMessages = true
+SymbolLoadMessages = true
+ProgramOutput = true

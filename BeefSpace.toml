@@ -1,0 +1,11 @@
+FileVersion = 1
+Projects = {Runestone = {Path = "."}, glfw = {Path = "deps/glfw"}, vulkan = {Path = "deps/vulkan"}, "Runestone.Test" = {Path = "Test"}}
+
+[Workspace]
+StartupProject = "Runestone.Test"
+
+[Configs.Test.Win32]
+ConfigSelections = {"Runestone.Test" = {Config = "Test"}}
+
+[Configs.Test.Win64]
+ConfigSelections = {"Runestone.Test" = {Config = "Test"}}

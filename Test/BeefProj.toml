@@ -1,0 +1,6 @@
+FileVersion = 1
+Dependencies = {corlib = "*", Runestone = "*"}
+
+[Project]
+Name = "Runestone.Test"
+StartupObject = "Runestone.Test.Program"

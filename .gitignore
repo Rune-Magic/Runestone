@@ -1,0 +1,6 @@
+build
+recovery
+BeefManaged.toml
+BeefSapce_User.toml
+deps/glfw/src
+deps/vulkan/sdk_path.txt

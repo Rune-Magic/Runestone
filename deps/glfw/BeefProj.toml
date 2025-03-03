@@ -1,0 +1,47 @@
+FileVersion = 1
+Dependencies = {corlib = "*", vulkan = "*"}
+
+[Project]
+Name = "glfw"
+TargetType = "BeefLib"
+StartupObject = "glfw.Program"
+
+[Configs.Debug.Win32]
+BuildCommandsOnCompile = "IfFilesChanged"
+BuildCommandsOnRun = "IfFilesChanged"
+PreBuildCmds = ["cmake -S $(ProjectDir)/src -B $(BuildDir) -D BUILD_SHARED_LIBS=ON", "cmake --build $(BuildDir) --parallel", "CopyToDependents(\"$(BuildDir)/src/Debug/glfw3.dll\")"]
+
+[Configs.Debug.Win64]
+BuildCommandsOnCompile = "IfFilesChanged"
+BuildCommandsOnRun = "Never"
+PreBuildCmds = ["cmake -S $(ProjectDir)/src -B $(BuildDir) -D BUILD_SHARED_LIBS=ON", "cmake --build $(BuildDir) --parallel", "CopyToDependents(\"$(BuildDir)/src/Debug/glfw3.dll\")"]
+
+[Configs.Release.Win32]
+BuildCommandsOnCompile = "IfFilesChanged"
+BuildCommandsOnRun = "IfFilesChanged"
+PreBuildCmds = ["cmake -S $(ProjectDir)/src -B $(BuildDir) -D BUILD_SHARED_LIBS=ON", "cmake --build $(BuildDir) --parallel", "CopyToDependents(\"$(BuildDir)/src/Debug/glfw3.dll\")"]
+
+[Configs.Release.Win64]
+BuildCommandsOnCompile = "IfFilesChanged"
+BuildCommandsOnRun = "IfFilesChanged"
+PreBuildCmds = ["cmake -S $(ProjectDir)/src -B $(BuildDir) -D BUILD_SHARED_LIBS=ON", "cmake --build $(BuildDir) --parallel", "CopyToDependents(\"$(BuildDir)/src/Debug/glfw3.dll\")"]
+
+[Configs.Paranoid.Win32]
+BuildCommandsOnCompile = "IfFilesChanged"
+BuildCommandsOnRun = "IfFilesChanged"
+PreBuildCmds = ["cmake -S $(ProjectDir)/src -B $(BuildDir) -D BUILD_SHARED_LIBS=ON", "cmake --build $(BuildDir) --parallel", "CopyToDependents(\"$(BuildDir)/src/Debug/glfw3.dll\")"]
+
+[Configs.Paranoid.Win64]
+BuildCommandsOnCompile = "IfFilesChanged"
+BuildCommandsOnRun = "IfFilesChanged"
+PreBuildCmds = ["cmake -S $(ProjectDir)/src -B $(BuildDir) -D BUILD_SHARED_LIBS=ON", "cmake --build $(BuildDir) --parallel", "CopyToDependents(\"$(BuildDir)/src/Debug/glfw3.dll\")"]
+
+[Configs.Test.Win32]
+BuildCommandsOnCompile = "IfFilesChanged"
+BuildCommandsOnRun = "IfFilesChanged"
+PreBuildCmds = ["cmake -S $(ProjectDir)/src -B $(BuildDir) -D BUILD_SHARED_LIBS=ON", "cmake --build $(BuildDir) --parallel", "CopyToDependents(\"$(BuildDir)/src/Debug/glfw3.dll\")"]
+
+[Configs.Test.Win64]
+BuildCommandsOnCompile = "IfFilesChanged"
+BuildCommandsOnRun = "IfFilesChanged"
+PreBuildCmds = ["cmake -S $(ProjectDir)/src -B $(BuildDir) -D BUILD_SHARED_LIBS=ON", "cmake --build $(BuildDir) --parallel", "CopyToDependents(\"$(BuildDir)/src/Debug/glfw3.dll\")"]

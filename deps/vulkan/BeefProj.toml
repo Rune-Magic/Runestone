@@ -1,0 +1,38 @@
+FileVersion = 1
+
+[Project]
+Name = "vulkan"
+TargetType = "BeefLib"
+StartupObject = "vulkan.Program"
+
+[Configs.Debug.Win32]
+LibPaths = ["$(Var SdkPath)/Lib/vulkan-1.lib"]
+PreBuildCmds = ["ReadFile(\"$(ProjectDir)/sdk_path.txt\", \"SdkPath\")"]
+
+[Configs.Debug.Win64]
+LibPaths = ["$(Var SdkPath)/Lib/vulkan-1.lib"]
+PreBuildCmds = ["ReadFile(\"$(ProjectDir)/sdk_path.txt\", \"SdkPath\")"]
+
+[Configs.Release.Win32]
+LibPaths = ["$(Var SdkPath)/Lib/vulkan-1.lib"]
+PreBuildCmds = ["ReadFile(\"$(ProjectDir)/sdk_path.txt\", \"SdkPath\")"]
+
+[Configs.Release.Win64]
+LibPaths = ["$(Var SdkPath)/Lib/vulkan-1.lib"]
+PreBuildCmds = ["ReadFile(\"$(ProjectDir)/sdk_path.txt\", \"SdkPath\")"]
+
+[Configs.Paranoid.Win32]
+LibPaths = ["$(Var SdkPath)/Lib/vulkan-1.lib"]
+PreBuildCmds = ["ReadFile(\"$(ProjectDir)/sdk_path.txt\", \"SdkPath\")"]
+
+[Configs.Paranoid.Win64]
+LibPaths = ["$(Var SdkPath)/Lib/vulkan-1.lib"]
+PreBuildCmds = ["ReadFile(\"$(ProjectDir)/sdk_path.txt\", \"SdkPath\")"]
+
+[Configs.Test.Win32]
+LibPaths = ["$(Var SdkPath)/Lib/vulkan-1.lib"]
+PreBuildCmds = ["ReadFile(\"$(ProjectDir)/sdk_path.txt\", \"SdkPath\")"]
+
+[Configs.Test.Win64]
+LibPaths = ["$(Var SdkPath)/Lib/vulkan-1.lib"]
+PreBuildCmds = ["ReadFile(\"$(ProjectDir)/sdk_path.txt\", \"SdkPath\")"]

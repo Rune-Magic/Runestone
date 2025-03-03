@@ -1,0 +1,29 @@
+FileVersion = 1
+
+[Project]
+Name = "Setup"
+StartupObject = "Setup.Program"
+
+[Configs.Debug.Win32]
+PreBuildCmds = ["CopyFilesIfNewer(\"$(BeefPath)/bin/libclang.*\", \"$(TargetDir)\")"]
+
+[Configs.Debug.Win64]
+PreBuildCmds = ["CopyFilesIfNewer(\"$(BeefPath)/libclang.*\", \"$(TargetDir)\")"]
+
+[Configs.Release.Win32]
+PreBuildCmds = ["CopyFilesIfNewer(\"$(BeefPath)/bin/libclang.*\", \"$(TargetDir)\")"]
+
+[Configs.Release.Win64]
+PreBuildCmds = ["CopyFilesIfNewer(\"$(BeefPath)/bin/libclang.*\", \"$(TargetDir)\")"]
+
+[Configs.Paranoid.Win32]
+PreBuildCmds = ["CopyFilesIfNewer(\"$(BeefPath)/bin/libclang.*\", \"$(TargetDir)\")"]
+
+[Configs.Paranoid.Win64]
+PreBuildCmds = ["CopyFilesIfNewer(\"$(BeefPath)/bin/libclang.*\", \"$(TargetDir)\")"]
+
+[Configs.Test.Win32]
+PreBuildCmds = ["CopyFilesIfNewer(\"$(BeefPath)/bin/libclang.*\", \"$(TargetDir)\")"]
+
+[Configs.Test.Win64]
+PreBuildCmds = ["CopyFilesIfNewer(\"$(BeefPath)/bin/libclang.*\", \"$(TargetDir)\")"]
